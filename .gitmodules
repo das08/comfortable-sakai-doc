@@ -1,0 +1,3 @@
+[submodule "comfortable-sakai"]
+	path = comfortable-sakai
+	url = git@github.com:kyoto-u/comfortable-sakai.git
