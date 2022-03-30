@@ -4,8 +4,8 @@
   "description": "A documentation for developers of Comfortable Sakai.",
   "main": "index.js",
   "scripts": {
-  	"compodoc": "npx compodoc -p tsconfig.doc.json",
-  	"compodoc:serve": "npx compodoc -p tsconfig.doc.json -s",
+  	"compodoc": "npx compodoc -p tsconfig.doc.json --includes guide --includesName='Guide for Comfortable Sakai'",
+  	"compodoc:serve": "npm run compodoc && npx compodoc -s",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
